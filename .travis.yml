@@ -4,6 +4,9 @@ services:
   - postgresql
 addons:
   postgresql: "9.6"
+branches:
+  only:
+   - master
 global:
   - PGPORT=5432
 before_script:
