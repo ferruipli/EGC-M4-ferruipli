@@ -24,9 +24,9 @@ env:
 matrix:
  exlude:
   - python: "2.7"
-    env: DJANGO=1.11 DB=postgres
-  - python: "3.6"
     env: DJANGO=2.0 DB=postgres
+  - python: "3.6"
+    env: DJANGO=1.11 DB=postgres
 before_install:
   - cd decide
 install:
